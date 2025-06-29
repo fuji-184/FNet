@@ -10,7 +10,7 @@
     <PackageId>FNet</PackageId>
     <Version>0.0.1</Version>
     <Authors>Fuji</Authors>
-    <Description>Library async HTTP server. Experimental</Description>
+    <Description>Simple C# HTTP 1.1 library. Experimental</Description>
     <RepositoryUrl>https://github.com/fuji-184/FNet</RepositoryUrl>
     <PackageTags>http;socket;async</PackageTags>
     </PropertyGroup>
