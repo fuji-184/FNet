@@ -1,14 +1,11 @@
-````markdown
 # FNet
 
-FNet is a high-performance, asynchronous HTTP server library for .NET designed to handle unlimited concurrent connections using a socket pooling model. It is ideal for lightweight APIs, testing tools, and high-throughput scenarios.
-
-> ⚠️ Currently experimental. API may change.
+FNet is simple C# HTTP server library
 
 ## ✨ Features
 
-- Asynchronous non blocking server
-- Minimal memory allocation with socket pooling
+- Non blocking server
+- Minimal memory allocation
 - Simple routing interface
 
 ## 📦 Installation
@@ -18,9 +15,6 @@ If you have [GitHub Packages configured](https://docs.github.com/en/packages/wor
 ```bash
 dotnet add package FNet --version 0.1.0
 ```
-````
-
-````
 
 Or reference the `.nupkg` directly from [GitHub Packages](https://github.com/users/fuji-184/packages?tab=packages).
 
@@ -64,5 +58,3 @@ public class Program
 
 - [.NET 7.0+](https://dotnet.microsoft.com/) (tested on .NET 9)
 - GitHub package access (if using GitHub Registry)
-```
-````
