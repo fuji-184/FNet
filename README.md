@@ -4,7 +4,6 @@ FNet is simple single threaded C# HTTP server library
 
 > ⚠️ Experimental
 
-
 ## ✨ Features
 
 - Non blocking server
@@ -13,13 +12,26 @@ FNet is simple single threaded C# HTTP server library
 
 ## 📦 Installation
 
-If you have [GitHub Packages configured](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry):
+You can install FNet manually via the `.nupkg` file published in the [GitHub Releases](https://github.com/fuji-184/FNet/releases)
+
+### Option 1: Manual download & install
+
+1. Download the latest `.nupkg` from [Releases](https://github.com/fuji-184/FNet/releases)
+2. Create a `packages/` folder inside your project (or your desired folder)
+3. Move the `.nupkg` file into that folder
+4. Run this :
 
 ```bash
-dotnet add package FNet --version 0.1.0
+dotnet add package FNet --source ./packages --version 0.1.0
 ```
 
-Or reference the `.nupkg` directly from [GitHub Packages](https://github.com/users/fuji-184/packages?tab=packages).
+### Option 2: One liner shell install
+
+```bash
+mkdir -p ./packages
+curl -L -o ./packages/FNet.0.1.0.nupkg https://github.com/fuji-184/FNet/releases/download/v0.1.0/FNet.0.1.0.nupkg
+dotnet add package FNet --source ./packages --version 0.1.0
+```
 
 ## 🚀 Quick Start
 
