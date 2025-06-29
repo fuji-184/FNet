@@ -12,20 +12,20 @@ FNet is simple single threaded C# HTTP server library
 
 ## 📦 Installation
 
-You can install FNet manually via the `.nupkg` file published in the [GitHub Releases](https://github.com/fuji-184/FNet/releases)
-
-### Option 1: Manual download & install
+### 1. Manual download & install
 
 1. Download the latest `.nupkg` from [Releases](https://github.com/fuji-184/FNet/releases)
 2. Create a `packages/` folder inside your project (or your desired folder)
 3. Move the `.nupkg` file into that folder
-4. Run this :
+4. Run this command :
 
 ```bash
 dotnet add package FNet --source ./packages --version 0.1.0
 ```
 
-### Option 2: One liner shell install
+### 2. One liner shell install
+
+Make sure you already have Curl installed. Then run this command :
 
 ```bash
 mkdir -p ./packages
