@@ -1,4 +1,3 @@
-
 ### ✅ `README.md`
 
 ````markdown
@@ -14,19 +13,16 @@ FNet is a high-performance, asynchronous HTTP server library for .NET designed t
 - Minimal memory allocation with socket pooling
 - Simple routing interface
 
----
-
 ## 📦 Installation
 
 If you have [GitHub Packages configured](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry):
 
 ```bash
 dotnet add package FNet --version 0.1.0
+```
 ````
 
 Or reference the `.nupkg` directly from [GitHub Packages](https://github.com/users/fuji-184/packages?tab=packages).
-
----
 
 ## 🚀 Quick Start
 
@@ -66,5 +62,5 @@ public class Program
 
 ## 🛠 Requirements
 
-* [.NET 7.0+](https://dotnet.microsoft.com/) (tested on .NET 9)
-* GitHub package access (if using GitHub Registry)
+- [.NET 7.0+](https://dotnet.microsoft.com/) (tested on .NET 9)
+- GitHub package access (if using GitHub Registry)
