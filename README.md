@@ -1,6 +1,8 @@
 # FNet
 
-FNet is simple C# HTTP server library
+FNet is simple single threaded C# HTTP server library
+
+> ⚠️ Experimental
 
 ## ✨ Features
 
