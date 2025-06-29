@@ -1,0 +1,14 @@
+/mnt/d/FNet/obj/Release/net9.0/FNet.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/FNet/obj/Release/net9.0/FNet.AssemblyInfoInputs.cache
+/mnt/d/FNet/obj/Release/net9.0/FNet.AssemblyInfo.cs
+/mnt/d/FNet/obj/Release/net9.0/FNet.csproj.CoreCompileInputs.cache
+/mnt/d/FNet/bin/Release/net9.0/FNet
+/mnt/d/FNet/bin/Release/net9.0/FNet.deps.json
+/mnt/d/FNet/bin/Release/net9.0/FNet.runtimeconfig.json
+/mnt/d/FNet/bin/Release/net9.0/FNet.dll
+/mnt/d/FNet/bin/Release/net9.0/FNet.pdb
+/mnt/d/FNet/obj/Release/net9.0/FNet.dll
+/mnt/d/FNet/obj/Release/net9.0/refint/FNet.dll
+/mnt/d/FNet/obj/Release/net9.0/FNet.pdb
+/mnt/d/FNet/obj/Release/net9.0/FNet.genruntimeconfig.cache
+/mnt/d/FNet/obj/Release/net9.0/ref/FNet.dll

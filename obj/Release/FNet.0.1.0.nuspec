@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FNet</id>
+    <version>0.1.0</version>
+    <authors>Fuji</authors>
+    <description>Library async HTTP server. Experimental</description>
+    <tags>http socket async</tags>
+    <repository type="git" url="https://github.com/fuji-184/fnet2" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/mnt/d/fnet2/bin/Release/net9.0/FNet.dll" target="lib/net9.0/FNet.dll" />
+  </files>
+</package>
