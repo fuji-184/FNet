@@ -25,12 +25,10 @@ dotnet add package FNet --source ./packages --version 0.1.0
 
 ### 2. One liner shell install
 
-Make sure you already have Curl installed. Then run this command :
+Make sure you already have wget installed. Then run this command (change the link to the newest version) :
 
 ```bash
-mkdir -p ./packages
-curl -L -o ./packages/FNet.0.1.0.nupkg https://github.com/fuji-184/FNet/releases/download/v0.1.0/FNet.0.1.0.nupkg
-dotnet add package FNet --source ./packages --version 0.1.0
+mkdir -p ./packages && cd packages && wget -O ./packages/FNet https://github.com/fuji-184/FNet/releases/download/v0.1.0/FNet.0.1.0.nupkg && dotnet add package FNet --source ./packages
 ```
 
 ## 🚀 Quick Start

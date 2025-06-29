@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2HVUAHF5Ndk=",
+  "success": true,
+  "projectFilePath": "/mnt/d/fnet2/example/Tes.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/fnet/0.0.1/fnet.0.0.1.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

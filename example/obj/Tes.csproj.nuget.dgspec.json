@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/d/fnet2/example/Tes.csproj": {}
+  },
+  "projects": {
+    "/mnt/d/fnet2/example/Tes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/d/fnet2/example/Tes.csproj",
+        "projectName": "Tes",
+        "projectPath": "/mnt/d/fnet2/example/Tes.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/mnt/d/fnet2/example/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/mnt/d/fnet2/example/packages": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FNet": {
+              "target": "Package",
+              "version": "[0.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.4, 9.0.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
