@@ -11,7 +11,7 @@
     "/root/.nuget/packages/": {}
   },
   "project": {
-    "version": "0.1.0",
+    "version": "0.0.1",
     "restore": {
       "projectUniqueName": "/mnt/d/fnet2/FNet.csproj",
       "projectName": "FNet",
@@ -26,7 +26,8 @@
         "net9.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/fuji-184/index.json": {}
       },
       "frameworks": {
         "net9.0": {
