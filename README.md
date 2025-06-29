@@ -18,7 +18,7 @@ FNet is simple single threaded C# HTTP server library
 4. Run this command :
 
 ```bash
-dotnet add package FNet --source ./packages --version 0.1.0
+dotnet add package FNet --source ./packages --version 0.0.1
 ```
 
 ## 🚀 Quick Start
